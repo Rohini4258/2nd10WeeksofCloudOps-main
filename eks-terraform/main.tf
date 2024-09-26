@@ -169,7 +169,7 @@ data "aws_security_group" "selected" {
     instance_types  = ["t3.large"]
 
     remote_access {
-      ec2_ssh_key               = "Devopsproject"
+      ec2_ssh_key               = "DevopsProject"
       source_security_group_ids = [data.aws_security_group.selected.id]
     }
 
