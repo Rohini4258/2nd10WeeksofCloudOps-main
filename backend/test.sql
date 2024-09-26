@@ -50,8 +50,8 @@ INSERT INTO `books` (`id`, `title`, `desc`, `price`, `cover`) VALUES
 --
 -- Indexes for table `books`
 --
-ALTER TABLE `books`
-  ADD PRIMARY KEY (`id`);
+/*ALTER TABLE `books`
+  ADD PRIMARY KEY (`id`);*/
 
 --
 -- AUTO_INCREMENT for dumped tables
