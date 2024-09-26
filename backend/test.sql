@@ -27,13 +27,13 @@ SET time_zone = "+00:00";
 -- Table structure for table `books`
 --
 
-/*CREATE TABLE `books` (
+CREATE TABLE `books` (
   `id` int(11) NOT NULL,
   `title` varchar(300) NOT NULL,
   `desc` varchar(500) NOT NULL,
   `price` float NOT NULL,
   `cover` varchar(500) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;*/
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `books`
@@ -50,8 +50,8 @@ INSERT INTO `books` (`id`, `title`, `desc`, `price`, `cover`) VALUES
 --
 -- Indexes for table `books`
 --
-/*ALTER TABLE `books`
-  ADD PRIMARY KEY (`id`);*/
+ALTER TABLE `books`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
